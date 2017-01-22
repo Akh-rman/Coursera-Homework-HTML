@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset = "UTF-8">
     <title>Assigment Solution for Module 3</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "CSS/bootstrap.min.css">
+    <link rel = "stylesheet" href = "CSS/style.css"> 
 </head>
 <body>
+    <header>
+        <nav id = "header-nav" class = "navbar navbar-default">
+            <div class = "container-fluid">
+                <div class = "navbar-header">
+                    <a class = "navbar-brand" href = "index.html"><h1>Our repair, LCC</h1></a>
+                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class = "sr-only">Toggle navigation</span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+                    <ul class = "nav navbar-nav navbar-right">
+                        <li>
+                            <a class = "visible-xs text-center" href = "index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class = "visible-xs text-center" href = "">Computer repair</a>
+                        </li>
+                        <li>
+                            <a class = "visible-xs text-center" href = "">Tablet repair</a>
+                        </li>
+                        <li>
+                            <a class = "visible-xs text-center" href = "">Phone repair</a>
+                        </li>
+                    </ul>
+                </div> <!--- .navbar-collapse --->
+            </div> <!--- .container --->
+        </nav> <!--- #header-nav --->
+    </header>
     
+    <div id = "main-content" class = "container">
+        <h2 class = "text-center">Our services</h2>
+        <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class = "content">           
+                <h2 class = "computer">Computer repair</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin dolor in ullamcorper interdum. Aliquam erat volutpat. Nunc aliquam arcu feugiat erat pulvinar, id vestibulum metus eleifend. Nullam rhoncus neque nec metus viverra eleifend. Suspendisse condimentum magna libero. Curabitur in mauris massa.
+                </p>
+            </div>  
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class = "content">
+                <h2 class = "tablet">Tablet repair</h2>
+                <p>
+                    Mauris id erat tristique, ullamcorper velit in, egestas tellus. In hac habitasse platea dictumst. Donec et tincidunt purus. In feugiat vel eros id ultricies. Donec tristique odio est, quis viverra tortor pharetra id. Nullam dictum mattis ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class = "content">
+                <h2 class = "phone">Phone repair</h2>
+                <p>
+                    Mauris molestie neque bibendum, vehicula orci vel, vestibulum sapien. Quisque egestas quam aliquam, rutrum ante sed, ornare nibh. Sed porttitor quis felis ut tempus. Nulla facilisi. Nulla cursus congue nunc vitae efficitur. Phasellus quis neque massa. Vestibulum ante ipsum primis in faucibus orci luctus ultrices posuere cubilia Curae.
+                </p>
+            </div>
+        </div>
+    </div> 
+        
+    </div> <!--- .main-content --->
+    
+    
+    <!--- jQuery (Boostrap JS plugins depend on it) --->
+    <script src = "js/jquery-3.1.1.min.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
 </body>
 </html>
