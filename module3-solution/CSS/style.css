@@ -60,17 +60,13 @@ body {
     flex-wrap: wrap;
 }
 
-#main-content .row {
-    margin-left: 0px;
-}
-
 #main-content .row > div {
     display: flex;
 }
 
 #main-content .content {
-    margin:  10px;
-    background: #989393;
+    margin: 10px;
+    background: #c1baba;
     border: 1px solid black;
 }
 
