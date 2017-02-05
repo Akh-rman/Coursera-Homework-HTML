@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     showLoading("#main-content");
     $ajaxUtils.sendGetRequest(allCategoriesUrl, buildAndShowHomeHTML, true); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
+
 // Builds HTML for the home page based on categories array
 // returned from the server.
 function buildAndShowHomeHTML (categories) {
